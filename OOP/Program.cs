@@ -13,4 +13,9 @@
     - Attributes are defined in the class template and represent the state of an object. Objects will have data stored in the attributes field. 
     Class attributes belong to the class itself. */
 
+using OOP;
+
 Console.WriteLine("Main principles of OOP");
+Console.WriteLine("Encapsulation");
+Encapsulation encapsulation = new Encapsulation();
+encapsulation.GetUsernamePassword();
